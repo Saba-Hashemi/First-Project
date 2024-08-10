@@ -1,0 +1,174 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: url(../image/back.jpeg);
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.logo{
+    display: flex;
+    position: absolute;
+    width: 70px;
+    height: 50px;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.slideshow-container {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 23%;
+    width: 1000px;
+    overflow: hidden;
+    border-radius: 9%;
+}
+
+.slides {
+    display: flex;
+    transition: transform 1s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+#slide1:checked ~ .slides {
+    transform: translateX(0%);
+}
+
+#slide2:checked ~ .slides {
+    transform: translateX(-100%);
+}
+
+#slide3:checked ~ .slides {
+    transform: translateX(-200%);
+}
+
+.controls {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+}
+
+.control {
+    width: 15px;
+    height: 15px;
+    background: #bbb;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked + .control {
+    background: #717171;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.menu-toggle {
+    display: none; /* Hide the checkbox */
+}
+
+.bar {
+    background-image:url(../image/bar.jpeg);
+    background-size: cover;
+    position: flex;
+    position: absolute;
+    margin-left: 90%;
+    margin-top: 0%;
+    width:10%;
+    height: 100%;
+    background-color: #8e8df1;
+    color: #fff;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+
+.ul-menu{
+    display: flex;
+    position: absolute;
+    left: 40px;
+    top: 130px;
+    flex-direction:column;
+    list-style-type: none;
+}
+
+ul a{
+margin-bottom: 80px;
+color: #fff;
+text-align: center;
+cursor: pointer;
+}
+
+.menu-icon{
+    width: 30%;
+    margin: 10px 60px;
+}
+
+.instagram{
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    width: 40%;
+    height: 3%;
+    margin-top: 45%;
+    margin-left:5%;
+}
+
+.instagram-address{
+    color:#fff;
+    margin-left: 20px;
+}
+
+.telegram-address{
+    color: #fff;
+    margin-left: 20px;
+}
+
+.telegram{
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    width: 40%;
+    height: 3%;
+    margin-top: 48%;
+    margin-left:5%;
+}
+
+ul a:active{
+   color:#8e8df1;
+}
+
+
+
+
+
+
+
+
+
+
