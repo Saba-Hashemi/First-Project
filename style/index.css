@@ -5,6 +5,7 @@
 
 body{
     background-image: url(../image/back.jpeg);
+    overflow: hidden;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -28,7 +29,7 @@ body{
     overflow: hidden;
     border-radius: 9%;
 }
-
+  
 .slides {
     display: flex;
     transition: transform 1s ease-in-out;
