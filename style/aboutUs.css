@@ -33,6 +33,7 @@ object-fit: cover;
     100% 0%,
     100% calc(100% - 5rem),
     0% 100%);
+
 }
 
 .box-2{
@@ -48,16 +49,11 @@ object-fit: cover;
     0% 70%
     );
     margin-bottom: 10%;
-}
- 
-
-.innerbox-2{
-    text-align: justify;
-    padding: 10%;
+    padding-top: 20%;
 }
 
 .container p{
-    font-size: smaller;
+    font-size:medium;
 }
 
 
