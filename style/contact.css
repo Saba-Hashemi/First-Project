@@ -75,7 +75,7 @@ div img{
     z-index: 1;
     box-shadow:  0px 10px 10px 10px rgba(38, 167, 226, 0.2);
     animation-name: anim;
-    animation-duration: 10s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-direction: normal;
 }
@@ -125,6 +125,5 @@ input[type="submit"] {
     border-radius: 6px; 
     background-color: #4CAF50; 
     color: white; 
-    cursor: pointer; } 
-    button:hover { 
-    background-color: #45a049; }
+    cursor: pointer; 
+} 
