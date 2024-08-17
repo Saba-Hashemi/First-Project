@@ -13,6 +13,7 @@ body{
 }
 
 .logo{
+    z-index: 2;
     display: flex;
     position: absolute;
     width: 70px;
